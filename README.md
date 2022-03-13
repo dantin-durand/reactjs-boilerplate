@@ -3,10 +3,11 @@
 It's a boilerplate for ReactJS projects.
 This project contains:
 
-- React-Router-Dom - router
-- Redux/ReduxToolkit - store
-- TailwindCSS - styling
-- Framer-motion - animations
+- [React-Router-Dom](https://v5.reactrouter.com/web/guides/quick-start) - router
+- [Redux/ReduxToolkit](https://redux-toolkit.js.org/introduction/getting-started) - store
+- [TailwindCSS](https://tailwindcss.com/docs/installation) - styling
+- [Framer-motion](https://www.framer.com/docs/) - animations
+- React-hook-form - form
 - PWA - service worker
 
 This boilerplate it's my vision for a stability and performance of ReactJS projects.
