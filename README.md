@@ -14,7 +14,7 @@ This boilerplate it's my vision for a stability and performance of ReactJS proje
 
 ## Installation
 
-1. Clone the repository: `git clone git@github.com:dantin-durand/reactjs-boilerplate.git`
+1. Clone the repository: `git clone git@github.com:dantin-durand/reactjs-boilerplate.git && cd reactjs-boilerplate`
 
 2. Remove the `.git` folder: `rm -rf .git`
 
@@ -27,7 +27,7 @@ This boilerplate it's my vision for a stability and performance of ReactJS proje
 Execute all steps in one command:
 
 ```
-git clone git@github.com:dantin-durand/reactjs-boilerplate.git && rm -rf .git && yarn && yarn start
+git clone git@github.com:dantin-durand/reactjs-boilerplate.git && cd reactjs-boilerplate && rm -rf .git && yarn && yarn start
 ```
 
 ## Structure
