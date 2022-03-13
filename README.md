@@ -13,9 +13,13 @@ This boilerplate it's my vision for a stability and performance of ReactJS proje
 
 ## Installation
 
-1. install the dependencies: `yarn`
+1. Clone the repository: `git clone git@github.com:dantin-durand/reactjs-boilerplate.git`
 
-2. start the project: `yarn start`
+2. Remove the `.git` folder: `rm -rf .git`
+
+3. install the dependencies: `yarn`
+
+4. start the project: `yarn start`
 
 ## Structure
 
