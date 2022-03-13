@@ -7,7 +7,7 @@ This project contains:
 - [Redux/ReduxToolkit](https://redux-toolkit.js.org/introduction/getting-started) - store
 - [TailwindCSS](https://tailwindcss.com/docs/installation) - styling
 - [Framer-motion](https://www.framer.com/docs/) - animations
-- React-hook-form - form
+- [React-hook-form](https://react-hook-form.com/api/useform/watch) - form
 - PWA - service worker
 
 This boilerplate it's my vision for a stability and performance of ReactJS projects.
