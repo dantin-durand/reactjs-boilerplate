@@ -21,6 +21,14 @@ This boilerplate it's my vision for a stability and performance of ReactJS proje
 
 4. start the project: `yarn start`
 
+---
+
+Execute all steps in one command:
+
+```
+git clone git@github.com:dantin-durand/reactjs-boilerplate.git && rm -rf .git && yarn && yarn start
+```
+
 ## Structure
 
 ```
