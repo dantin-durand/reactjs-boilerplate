@@ -3,23 +3,27 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import RootContainer from "router";
-import * as serviceWorker from "./serviceWorker";
+import * as serviceWorker from "./serviceWorkerRegistration";
+import reportWebVitals from "./reportWebVitals";
 
 // Redux
-import { store } from "./core/store";
+import { store } from "./store/store";
 import { Provider } from "react-redux";
 
 // Styles
 import "./index.css";
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
   <BrowserRouter>
     <Provider store={store}>
       <RootContainer />
     </Provider>
-  </BrowserRouter>,
-  document.getElementById("root")
+  </BrowserRouter>
 );
 
 // change to register() for active PWA
 serviceWorker.unregister();
+
+reportWebVitals();
